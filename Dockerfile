@@ -1,13 +1,15 @@
-FROM mysterydemon/botcluster:latest
+FROM mysterydemon/botcluster:wzmlx 
 
-WORKDIR /app
+WORKDIR /usr/src/app
+RUN chmod 777 /usr/src/app
 COPY requirements.txt ./
 RUN pip install --no-cache-dir -r requirements.txt
+
 COPY . .
 
 RUN bash run.sh
 
-COPY start.sh /usr/local/bin/start.sh
-RUN chmod +x /usr/local/bin/start.sh
+COPY start.sh /usr/src/app/start.sh
+RUN chmod +x /usr/src/app/start.sh
 
-CMD ["/usr/local/bin/start.sh"]
+CMD ["/usr/src/app/start.sh"]
