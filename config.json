@@ -11,7 +11,7 @@
             "FSUB_ID": "-1002116310726",
             "LOG_CHANNEL": "-1002292607317"
         },
-        "run": "run.sh"
+        "run": "bot.py"
     },
     "bot2": {
         "source": "https://github.com/sarasu-tg/funda.git",
@@ -19,6 +19,6 @@
         "env": {
             "BOT_TOKEN": "7343387050:AAE9r0Py9f9mPhWTsAmPFVrTxzjNFUpCl8I"
         },
-        "run": "run.sh"
+        "run": "bot.py"
     }
 }
