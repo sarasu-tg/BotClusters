@@ -1,17 +1,23 @@
 {   
     "bot1": {
-        "source": "repo_link",
-        "branch": "master",
+        "source": "https://github.com/mntg4u/chatgpt-mnbot.git",
+        "branch": "main",
         "env": {
-            "TOKEN": ""
+            "ADMINS": "1892771262",
+            "API_HASH": "2b653cb53821a82097efaba6732f5d75",
+            "API_ID": "22980696",
+            "BOT_TOKEN": "7776137055:AAGhSffaIGl1MvUUl1969RiOBcsFhK9zSsk",
+            "DATABASE_URL": "mongodb+srv://Zfile:zfile@cluster0.erkr0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
+            "FSUB_ID": "-1002116310726",
+            "LOG_CHANNEL": "-1002292607317"
         },
         "run": "run.sh"
     },
     "bot2": {
-        "source": "repo_link",
-        "branch": "master",
+        "source": "https://github.com/sarasu-tg/funda.git",
+        "branch": "main",
         "env": {
-            "TOKEN": ""
+            "BOT_TOKEN": "7343387050:AAE9r0Py9f9mPhWTsAmPFVrTxzjNFUpCl8I"
         },
         "run": "run.sh"
     }
