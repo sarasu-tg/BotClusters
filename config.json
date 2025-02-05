@@ -1,15 +1,9 @@
 {   
     "bot1": {
-        "source": "https://github.com/mntg4u/chatgpt-mnbot.git",
+        "source": "https://github.com/sarasu-tg/string.git",
         "branch": "main",
         "env": {
-            "ADMINS": "1892771262",
-            "API_HASH": "2b653cb53821a82097efaba6732f5d75",
-            "API_ID": "22980696",
-            "BOT_TOKEN": "7776137055:AAFYkQ6UqG6SDc8rR7HzQbP023FTlbO2pxY",
-            "DATABASE_URL": "mongodb+srv://Zfile:zfile@cluster0.erkr0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
-            "FSUB_ID": "-1002116310726",
-            "LOG_CHANNEL": "-1002292607317"
+            "BOT_TOKEN": "7760581485:AAHQvj-pOL00FtHK7abeo20TTJ_YPbJzR0A"
         },
         "run": "bot.py"
     },
